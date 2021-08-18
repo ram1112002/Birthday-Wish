@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.birthdaywish">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BirthdayWish">
+        <activity android:name=".IMessages"></activity>
+        <activity android:name=".Iquotes" />
+        <activity android:name=".IPoem" />
+        <activity android:name=".fourtytosix" />
+        <activity android:name=".twetofourty" />
+        <activity android:name=".tentotwn" />
+        <activity android:name=".onetoten" />
+        <activity android:name=".Bro" />
+        <activity android:name=".Sis" />
+        <activity android:name=".Father" />
+        <activity android:name=".MOM" />
+        <activity android:name=".FunnyActivity" />
+        <activity
+            android:name=".ByAgeActivity"
+            android:label="By Age" />
+        <activity
+            android:name=".InspirationalActivity"
+            android:label="Inspirational" />
+        <activity
+            android:name=".FriendsActivity"
+            android:label="Friends" />
+        <activity
+            android:name=".Family"
+            android:label="Family" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
